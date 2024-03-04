@@ -16,6 +16,6 @@ número = int(input("\n...\nadivina el número: "))
 
 while número != secret_number:
     print ("¡Ja, ja! ¡Estás atrapado en mi bucle!")
-    número = int(input("\n...\nintenta de nuevo número: "))
+    número = int(input("\n...\nintenta de nuevo: "))
 if número == secret_number:
     print("¡Bien hecho, muggle! Eres libre ahora")
