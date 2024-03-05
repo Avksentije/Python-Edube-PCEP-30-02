@@ -1,0 +1,10 @@
+for i in range(5):  #Contador
+    print(i)
+else:
+    print("else:", i)
+
+i = 1
+for i in range(2, 100, 10): #Contador dentro de un rango y con tamaño de paso de 10
+    print(i)
+else:
+    print("else:", i)
