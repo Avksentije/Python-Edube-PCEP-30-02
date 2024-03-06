@@ -22,3 +22,8 @@ print("\nPrevio contenido de la lista:", list)  # Imprimiendo contenido de la li
 
 list[1] = list[4]  # Copiando el valor del quinto elemento al segundo elemento.
 print("\nNuevo contenido de la lista:", list)  # Imprimiendo el contenido de la lista actual.
+
+print(list[3])
+del list[3]
+print(list)
+print(list[3])
