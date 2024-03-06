@@ -12,10 +12,14 @@ print(
 +==================================+
 """)
 
-número_visualaaaa = int(input("\n...\nadivina el número: ")) #VOY A HACER UN CAMBIO AQUI
+número = int(input("\n...\nadivina el número: ")) #voy a hacer un cambio aquí
 
-while número_visual != secret_number:
+while número != secret_number:
     print ("¡Ja, ja! ¡Estás atrapado en mi bucle!")
-    número_visual = int(input("\n...\nintenta de nuevo: "))
-if número_visual == secret_number:
+    número = int(input("\n...\nintenta de nuevo: "))
+if número == secret_number:
     print("¡Bien hecho, muggle! Eres libre ahora")
+
+
+    #agrego un comentario
+    #ya está funcionando el control de versiones
