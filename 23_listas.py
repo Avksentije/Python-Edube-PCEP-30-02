@@ -27,3 +27,5 @@ print(list[3])
 del list[3]
 print(list)
 print(list[3])
+
+print(numbers[-1]) #contar desde el último elemento de la lista
