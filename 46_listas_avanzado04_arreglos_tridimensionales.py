@@ -22,3 +22,24 @@ for room_number in range(20):
         
         #La variable vacancy contiene 0 si todas las habitaciones están ocupadas,
         #o, en dado caso, el número de habitaciones disponibles.
+
+
+# Cubo - un arreglo tridimensional (3x3x3)
+
+cube = [[[':(', 'x', 'x'],
+         [':)', 'x', 'x'],
+         [':(', 'x', 'x']],
+
+        [[':)', 'x', 'x'],
+         [':(', 'x', 'x'],
+         [':)', 'x', 'x']],
+
+        [[':(', 'x', 'x'],
+         [':)', 'x', 'x'],
+         [':)', 'x', 'x']]]
+
+for row in cube:
+    print(row)
+    
+print(cube[0][0][0])  # outputs: ':('
+print(cube[2][2][0])  # outputs: ':)'
