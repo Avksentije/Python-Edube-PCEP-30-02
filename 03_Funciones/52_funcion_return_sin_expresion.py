@@ -1,18 +1,21 @@
 #return sin una expresión
 
-#provoca la terminación inmediata de la jecución de la función
-#y un retorno instantáneo al punto de invocación
+#"transporta" el valor de la expresión al lugar donde se invoca la función
 
+def funcion_expresion():
+    return 123
 
-def happy_new_year(wishes = True):
-    print("Tres...")
-    print("Dos...")
-    print("Uno...")
-    if not wishes:  #recuerda, un not True es un False :)
-        return
-    
-    print("¡Feliz año nuevo!")
+x = funcion_expresion()
 
-happy_new_year(False)
+print("La función ha devuelto su resultado. Es:", x)
+
+#La expresión del return también puede ser pasado por alto
+def funcion_expresion():
+    print("Saltando el return")
+    return 123
+
+print("Omitiendo el resultado...")
+funcion_expresion()
+print("Se ha saltado")
 
 
