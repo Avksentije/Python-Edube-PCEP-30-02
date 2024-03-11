@@ -18,3 +18,9 @@ def funcion_lista(n):
     return lista_02
 
 print(funcion_lista(17))
+
+
+def adding(a, b, c):
+    print(a, "+", b, "+", c, "=", a + b + c)
+
+adding(1, 3 , 7)
