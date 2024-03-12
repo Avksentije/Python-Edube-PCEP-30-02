@@ -23,6 +23,3 @@ my_function(my_list_2)
 print("Print #5:", my_list_2) #[2, 3] imprime directamente my_list_2 desde "fuera" de la función
 
 
-
-
-
