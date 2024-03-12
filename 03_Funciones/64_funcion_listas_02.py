@@ -9,6 +9,8 @@ def my_function(my_list_1):
 
 
 my_list_2 = [2, 3]
+print("Ubicación de la lista global: ", hex(id(my_list_2)))
+
 my_function(my_list_2)
 print("Print #5:", my_list_2, hex(id(my_list_2)))
 
