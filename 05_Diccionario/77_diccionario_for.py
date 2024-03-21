@@ -4,7 +4,7 @@ dictionary  = {
     "mascota":"tortuga"  #aquí ya no lleva coma :))
     }
 
-words = ["agua", "dirección", "clave"] #Por alguna razón esto me recuerda al modelo lógico relacional (hmmm)
+words = ["agua", "dirección", "clave"] #Por alguna razón esto me recuerda al modelo Entidad-Relación de las BD (hmmm, sospechoso...)
 #(Creamos una lista intermedia)
 
 for word in words: #for element in list
