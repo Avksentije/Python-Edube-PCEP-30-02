@@ -44,3 +44,8 @@ print(type(tup))    # salida: <class 'tuple'> #acá convertimos una lista en una
 tup = 1, 2, 3, 
 my_list = list(tup)
 print(type(my_list))    # salida: <class 'list'> #y acá lo hicimos a la inversa :))
+
+
+my_list = ["car", "Ford", "flower", "Tulip"]
+t = list(my_list) 
+print(t)
