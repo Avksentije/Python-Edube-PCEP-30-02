@@ -15,3 +15,9 @@ empty_dictionary = {}
 print(dictionary)
 print(phone_numbers)
 print(empty_dictionary)
+
+#Friendly reminder:
+#Los diccionarios no son listas, no guardan el orden de sus datos y el orden no tiene significado.
+#Un print también pudiera lucir así, para el mismo diccionario:
+
+#{'perro': 'chien', 'caballo': 'cheval', 'gato': 'chat'}
